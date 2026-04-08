@@ -1,0 +1,84 @@
+
+body {
+  background: #0f0f14;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw;
+}
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav a {
+  margin-left: 15px;
+  text-decoration: none;
+   color: #ffffff;
+}
+
+.nav a:hover {
+ color: #7c3aed;
+}
+.courses {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+
+.course-card {
+  background: #1a1a22;
+  padding: 25px;
+  width: 220px;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: 0.25s;
+  border: 1px solid transparent;
+  
+}
+
+.course-card h2 {
+  margin-bottom: 10px;
+}
+
+.course-card p {
+  color: #a0a0b0;
+}
+
+.course-card[data-course="html"] h2 {
+  color: #e34c26;
+}
+.course-card[data-course="html"]:hover{
+    border: 1px solid #e34c26;
+}
+.course-card[data-course="css"] h2{
+  color: #3059ff;
+}
+.course-card[data-course="css"]:hover{
+    border: 1px solid #3059ff;
+}
+.course-card[data-course="JavaScript"] h2{
+ color: #f0db4f;
+}
+.course-card[data-course="JavaScript"]:hover{
+    border: 1px solid #f0db4f;
+}
+.course-card-button{
+    display: flex;
+    justify-content: end;    
+}
+.course-card-button {
+  font-size: 20px;
+  color: var(--color);
+  transition: 0.2s;
+}

@@ -1,0 +1,27 @@
+body {
+  background: #0f0f14;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+.container-small {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #a0a0b0;
+  margin-bottom: 30px;
+}
+.question-card {
+  background: #1a1a22;
+  padding: 20px;
+  border-radius: 14px;
+  margin-bottom: 15px;
+  border: 1px solid rgba(255,255,255,0.05);
+  transition: 0.25s;
+}

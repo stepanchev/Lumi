@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>404</title>
+  <link rel="stylesheet" href="styles/404.css">
+</head>
+<style>
+    body {
+  margin: 0;
+  height: 100vh;
+  background: #0f0f14;
+  color: white;
+  font-family: sans-serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+}
+
+
+.subtitle {
+  color: #a0a0b0;
+  margin: 20px 0;
+}
+
+/* кнопка */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #7c3aed;
+  color: #7c3aed;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: #7c3aed;
+  color: white;
+}
+.hash {
+  font-size: 80px;
+  display: inline-block;
+  animation: bounce 1s infinite ease-in-out;
+  color: #7c3aed;
+  
+}
+.hash {
+  text-shadow: 0 0 0px #7c3aed, 0 0 90px #7c3aed;
+}
+@keyframes bounce { 0% { transform: translateY(0); } 50% { transform: translateY(-15px); } 100% { transform: translateY(0); } }
+.container-hash span {
+  font-size: 80px;
+  color: #ffffff;
+  opacity: 0.3;
+}
+.container-hash {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.container-hash {
+  animation: float 3s ease-in-out infinite;
+}
+
+
+</style>
+<body>
+
+  <div class="container">
+<div class="container-hash"><span>4</span><i class="hash">#</i><span>4</span></div>
+
+    <p class="subtitle">Страница не найдена</p>
+
+    <a href="../index.html" class="btn">Вернуться назад</a>
+
+  </div>
+
+</body>
+
+</html>
