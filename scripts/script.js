@@ -6,8 +6,8 @@ document.querySelectorAll('.course-card').forEach(card => {
 });
 
 const path = window.location.pathname.includes('course-pagis')
-  ? '../header.html'
-  : 'header.html';
+  ? '../components/header.html'
+  : 'components/header.html';
 
 fetch(path)
   .then(res => res.text())
