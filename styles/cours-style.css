@@ -17,11 +17,29 @@ h1 {
   color: #a0a0b0;
   margin-bottom: 30px;
 }
+
 .question-card {
-  background: #1a1a22;
-  padding: 20px;
-  border-radius: 14px;
-  margin-bottom: 15px;
-  border: 1px solid rgba(255,255,255,0.05);
-  transition: 0.25s;
+  background: #1e1e2f;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 0 10px 25px rgba(77, 77, 77, 0.13);
+}
+.questInput{
+  background-color: rgb(255, 255, 255);
+  border: none;
+  padding: 8px;
+  width: 17vw;
+}
+.buttonCheck{
+  background-color: #7c3aed;
+  padding: 8px 15px;
+  border: 2px solid black;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.buttonCheck:hover{
+  background-color: #701dff 
 }
